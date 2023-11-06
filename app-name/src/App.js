@@ -18,10 +18,6 @@ function App() {
     return <LoadPanel visible={true} />;
   }
 
-  if (user) {
-    return <MyDataGridComponent />; // Reemplaza Content con MyDataGridComponent
-  }
-
   return <UnauthenticatedContent />;
 }
 
